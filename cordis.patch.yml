@@ -1,0 +1,4 @@
+# 把插件挂进 DSH 配置树；id 必须与包名一致。
+- insert:
+    - id: dsh-inspiration-vault
+      name: 'dsh-inspiration-vault'

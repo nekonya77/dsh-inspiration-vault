@@ -1,0 +1,47 @@
+{
+  "name": "dsh-inspiration-vault",
+  "version": "0.1.0",
+  "description": "A local idea vault for DSH: jot an idea in one line, find it again by keyword. Plain markdown cards, no AI commentary, no auto-generated todos.",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "skill",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "inspiration",
+    "idea-vault",
+    "notes",
+    "markdown",
+    "second-brain",
+    "knowledge-base"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clair0314/dsh-inspiration-vault.git"
+  },
+  "homepage": "https://github.com/clair0314/dsh-inspiration-vault",
+  "bugs": {
+    "url": "https://github.com/clair0314/dsh-inspiration-vault/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
