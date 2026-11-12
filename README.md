@@ -2,7 +2,7 @@
 
 > 一个只属于你的本地灵感库，跑在 DSH 里。
 
-> 🐧 **AI 学习群：1132348296**（在 QQ 里搜群号就能加）— 灵感怎么变成插件、怎么找到没人做的方向，群里每周聊。
+> 🐧 **AI 学习群 1132348296** · niko 在这儿，插件我写、方向我找、坑我踩。 灵感怎么变成插件、怎么找到没人做的方向，群里每周聊。
 
 ![灵感库演示：记一句，三个关键词找回来](docs/demo.gif)
 
@@ -51,7 +51,7 @@
 或者从源码装：
 
 ```bash
-git clone https://github.com/clair0314/dsh-inspiration-vault.git
+git clone https://github.com/nekonya77/dsh-inspiration-vault.git
 cd dsh-inspiration-vault
 dsh plugin install .
 ```
